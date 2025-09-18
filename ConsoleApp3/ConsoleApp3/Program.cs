@@ -2,9 +2,8 @@ using System;
 
 class Program
 {
-    static void Main()
+    static void F15()
     {
-        // 15.feladat
         Console.Write("Kérek egy pozitív egész számot: ");
         int n = int.Parse(Console.ReadLine());
         for (int i = 1; i <= n; i++)
@@ -13,10 +12,15 @@ class Program
             if (i < n) Console.Write(" ");
         }
         Console.WriteLine();
+    }
+    static void Main()
+    {
+        // 15.feladat
+        
 
         // 16. feladat
         Console.Write("Kérek egy pozitív egész számot: ");
-        n = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
         for (int i = 1; i <= n; i++)
         {
             Console.WriteLine(i);
@@ -115,7 +119,7 @@ class Program
             voltKettes = true;
         }
         Console.WriteLine(szorzatSzam);
-
+        
         static void Main()
         {
             // 24. feladat 
