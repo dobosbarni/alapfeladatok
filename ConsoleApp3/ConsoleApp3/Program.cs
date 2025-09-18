@@ -13,12 +13,8 @@ class Program
         }
         Console.WriteLine();
     }
-    static void Main()
+    static void F16()
     {
-        // 15.feladat
-        
-
-        // 16. feladat
         Console.Write("Kérek egy pozitív egész számot: ");
         int n = int.Parse(Console.ReadLine());
         for (int i = 1; i <= n; i++)
@@ -26,9 +22,17 @@ class Program
             Console.WriteLine(i);
         }
 
+    }
+    static void Main()
+    {
+        // 15.feladat
+        
+
+        // 16. feladat
+
         // 17. feladat
         Console.Write("Kérek egy pozitív egész számot: ");
-        n = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
         Console.Write("Osztók: ");
         for (int i = 1; i <= n; i++)
         {
